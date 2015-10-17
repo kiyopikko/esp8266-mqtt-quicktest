@@ -19,7 +19,7 @@
 
 /***************************** Your Setup ************************************/
 
-#define YOUR_SERVER      "192.168.*.*"
+#define YOUR_SERVER      "...your_mqtt_broker_host..."
 #define YOUR_SERVERPORT  1883
 #define YOUR_USERNAME    "...your username..."
 #define YOUR_PASSWORD    "...your password..."

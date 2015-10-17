@@ -24,10 +24,10 @@ extern "C" {
 
 /***************************** Your Setup ************************************/
 
-#define YOUR_SERVER      "192.168.*.*"
+#define YOUR_SERVER      "...your_mqtt_broker_host..."
 #define YOUR_SERVERPORT  1883
-#define YOUR_USERNAME    "...your username..."
-#define YOUR_PASSWORD    "...your password..."
+#define YOUR_USERNAME    "...your_username..."
+#define YOUR_PASSWORD    "...your_password..."
 
 /************ Global State (you don't need to change this!) ******************/
 
@@ -103,7 +103,7 @@ void loop() {
   // publish
   lightPublisher.publish(ADC_Value);
 
-  delay(500);
+  delay(50000);
 }
 
 // Function to connect and reconnect as necessary to the MQTT server.
